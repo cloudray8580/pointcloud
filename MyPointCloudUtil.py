@@ -295,10 +295,15 @@ class MyPointCloudUtil(object):
 
 instance = MyPointCloudUtil()
 
+import plyfile
+plydata = plyfile.PlyData.read('texturedknot.ply')
+print(plydata)
+print(plydata["vertex"][0])
+
 # reload(sys)
 # sys.setdefaultencoding('utf8')
 
-print(instance.plyloader("airplane.ply"))
+#print(instance.plyloader("airplane.ply"))
 
 # array = instance.offloader("m101.off")
 # print(len(array))
