@@ -33,7 +33,55 @@ import sys
 # str = raw_input("input here:")
 # print(str)
 
-import os
-print(os.listdir("/Users/lizhe/Downloads/"))
+# import os
+# print(os.listdir("/Users/lizhe/Downloads/"))
 
 #print(os.getcwd())
+
+# a = [1,2,3]
+# b = [4]
+# print(a+b) #[1,2,3,4]
+
+# a, b, c = 0,0,0
+# print(a,b,c)
+
+# array1 = [1,2,3,4]
+#
+# def fun1(array):
+#     return [x+1 for x in array]
+#
+# def fun2(array):
+#     for x in array:
+#         x =2
+#         print(x) # 2,3,4,5
+#     print(array) # 1,2,3,4
+#
+# def fun3(array):
+#     for i in range(len(array)):
+#         array[i] += 1
+#     print(array) # 2,3,4,5
+#
+# fun1(array1)
+# print(array1) # [1,2,3,4]
+#
+# fun2(array1)
+# print(array1) # [1,2,3,4]
+#
+# fun3(array1)
+# print(array1) # 2,3,4,5
+#
+# for x in array1:
+#     print(x == array1[0])
+#
+# array3 = [[1,2],[3,4]]
+# for subarray in array3:
+#     subarray = [2,2,2,2]
+# print(array3) # [[1, 2], [3, 4]]
+#
+# array4 = [[1,2],[3,4]]
+# for subarray in array4:
+#     subarray[0] = 2
+# print(array4) # [[2, 2], [2, 4]]
+
+import math
+print(math.radians(180))
